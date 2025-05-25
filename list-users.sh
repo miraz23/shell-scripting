@@ -40,3 +40,9 @@ function list_users_with_read_access {
 
 echo "Listing users with read access to ${REPO_OWNER}/${REPO_NAME}..."
 list_users_with_read_access
+
+
+# Necessary to run the script:-
+# username="your_github_username"
+# token="your_personal_access_token"
+# ./listUsers.sh repo_owner repo_name
